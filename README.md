@@ -1,6 +1,6 @@
 # 💫 About Me:
 🔭 I’m currently pursuing BTECH in Computer Science and Engineering (CSOT) at Providence college of engineering<br>
-🤝 I’m looking to collaborate on cybersecurity projects<br>
+🤝 I’m looking to collaborate on cybersecurity, AI or AIOT based projects<br>
 ⚡ I like to explore the domains of cybersecurity, blockchain and IOT<br>
 ✅ You can reach me out through my email address maheshwaranup@gmail.com<br>
 
