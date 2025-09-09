@@ -24,7 +24,7 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=djmahe4&limit=5&theme=dark&combine_all_yearly_contributions=true) -->
 
-# Cyber Badges
+# 🎖 Badges
 [![](https://tryhackme-badges.s3.amazonaws.com/djmahe4.png)](https://tryhackme.com/p/djmahe4)
 
 ---
