@@ -36,7 +36,7 @@ jobs:
             exit 0
           fi
 
-        git commit -m "$COMMIT_MESSAGE"
+          git commit -m "$COMMIT_MESSAGE"
 
-        # Push current HEAD back to the branch that triggered the workflow
-        git push origin "HEAD:${{ github.ref_name }}"
+          # Push current HEAD back to the branch that triggered the workflow
+          git push origin "HEAD:${{ github.ref_name }}"
