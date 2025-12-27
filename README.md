@@ -25,7 +25,8 @@
 ![](https://github-contributor-stats.vercel.app/api?username=djmahe4&limit=5&theme=dark&combine_all_yearly_contributions=true) -->
 
 # 🎖 Badges
-[![](https://tryhackme-badges.s3.amazonaws.com/djmahe4.png)](https://tryhackme.com/p/djmahe4)
+<!--[![](https://tryhackme-badges.s3.amazonaws.com/djmahe4.png)](https://tryhackme.com/p/djmahe4) -->
+![thm_propic.png](https://tryhackme.com/p/djmahe4)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=djmahe4&icon=8&color=4)](https://visitcount.itsvg.in)
