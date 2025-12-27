@@ -18,7 +18,7 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
       - name: Fetch TryHackMe Badge
-        uses: DhanushNehru/tryhackme-badge-action-workflow@v1
+        uses: DhanushNehru/tryhackme-badge-action-workflow@latest
         with:
           username: djmahe4
           user_id: 1979327  # e.g., 1234567
