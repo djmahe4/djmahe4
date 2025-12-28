@@ -24,6 +24,7 @@ jobs:
           user_id: 1979327  # e.g., 1234567
           image_path: './thm_propic.png'  # or tryhackme-badge.png
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        continue-on-error: true
       - name: Commit and push badge if changed
         env:
           COMMIT_MESSAGE: "Updated THM profile badge"
