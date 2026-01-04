@@ -45,6 +45,9 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           
+          # Pull latest changes first
+          git pull --rebase origin ${{ github.ref_name }}
+          
           git add counter.svg
           
           # Detect changes and commit only if present
@@ -55,9 +58,20 @@ jobs:
           
           git commit -m "Update counter badge"
           
-          # Integrate remote changes via rebase to enable fast-forward push
-          git pull --rebase origin ${{ github.ref_name }}
+          # Retry push with rebase if it fails
+          max_retries=3
+          retry_count=0
           
-          # Push the rebased commit
-          git push origin ${{ github.ref_name }}
-      
+          while [ $retry_count -lt $max_retries ]; do
+            if git push origin ${{ github.ref_name }}; then
+              echo "Successfully pushed changes"
+              exit 0
+            else
+              echo "Push failed, attempting rebase and retry..."
+              git pull --rebase origin ${{ github.ref_name }}
+              retry_count=$((retry_count + 1))
+            fi
+          done
+          
+          echo "Failed to push after $max_retries attempts"
+          exit 1
