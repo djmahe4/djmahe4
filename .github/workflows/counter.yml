@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch counter stats
         run: |
-          curl -s https://api.counterapi.dev/v2/maheshwar-anups-team-2363/first-counter-2363/stats \
+          curl -s https://api.counterapi.dev/v2/maheshwar-anups-team-2363/first-counter-2363 \
             -H "Authorization: Bearer ${{ secrets.COUNTER_API_KEY }}" \
             -o stats.json
 
@@ -41,20 +41,21 @@ jobs:
 
       - name: Commit and push badge if changed
         run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          
           git add counter.svg
-      
+          
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-      
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-      
+          
           git commit -m "Update counter badge"
-      
-          # 🔥 Pull latest changes to avoid non-fast-forward errors
+          
+          # Pull latest changes to avoid non-fast-forward errors
           git pull --rebase origin ${{ github.ref_name }}
-      
-          git push origin HEAD:${{ github.ref_name }}
+          
+          # Corrected push syntax
+          git push origin ${{ github.ref_name }}
 
