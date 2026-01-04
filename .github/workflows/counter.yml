@@ -5,6 +5,9 @@ on:
     - cron: "*/30 * * * *"   # every 30 mins
   workflow_dispatch:
 
+permissions:
+  contents: write   # REQUIRED to push commits
+
 jobs:
   update-counter:
     runs-on: ubuntu-latest
@@ -12,11 +15,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          persist-credentials: true
           fetch-depth: 0
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Fetch counter stats
         run: |
@@ -26,7 +29,7 @@ jobs:
 
       - name: Generate SVG badge
         run: |
-          COUNT=$(jq '.data.up_count' stats.json)
+          COUNT=$(jq -r '.data.up_count' stats.json)
 
           cat <<EOF > counter.svg
           <svg xmlns="http://www.w3.org/2000/svg" width="160" height="40">
@@ -35,19 +38,18 @@ jobs:
             <text x="120" y="26" fill="#58a6ff" font-size="16" font-weight="bold">${COUNT}</text>
           </svg>
           EOF
+
       - name: Commit and push badge if changed
-        env:
-          COMMIT_MESSAGE: "Updated THM profile badge"
         run: |
-          git add counter.svg || true
-  
-          # If there are no staged changes, exit successfully
+          git add counter.svg
+
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
 
-          git commit -m "$COMMIT_MESSAGE"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
 
-          # Push current HEAD back to the branch that triggered the workflow
-          git push origin "HEAD:${{ github.ref_name }}"
+          git commit -m "Update counter badge"
+          git push origin HEAD:${{ github.ref_name }}
