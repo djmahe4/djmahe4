@@ -16,6 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          persist-credentials: true
           fetch-depth: 0
 
       - name: Install jq
@@ -46,6 +47,7 @@ jobs:
           
           git add counter.svg
           
+          # Detect changes and commit only if present
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
@@ -53,9 +55,9 @@ jobs:
           
           git commit -m "Update counter badge"
           
-          # Pull latest changes to avoid non-fast-forward errors
+          # Integrate remote changes via rebase to enable fast-forward push
           git pull --rebase origin ${{ github.ref_name }}
           
-          # Corrected push syntax
+          # Push the rebased commit
           git push origin ${{ github.ref_name }}
-
+      
