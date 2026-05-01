@@ -30,7 +30,7 @@
 
 # ✨ Visits
 
-<p align="center">
+<p align="left">
 <img src="https://komarev.com/ghpvc/?username=djmahe4&color=red&style=flat-square" alt="Profile views"/>
 </p>
 
