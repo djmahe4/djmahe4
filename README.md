@@ -44,10 +44,10 @@ Building secure, scalable software with **Python**, **TypeScript** and **AI**.
 </p>
 
 
-<h2 align="center">✍️ Random Dev Quote</h2>
+<!-- <h2 align="center">✍️ Random Dev Quote</h2>
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight width="50%">
-</p>
+</p> -->
 
 <h2 align="center">🎖 Badges</h2>
 
