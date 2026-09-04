@@ -40,14 +40,13 @@ Building secure, scalable software with **Python**, **TypeScript** and **AI**.
 
 <h2 align="center">📊 GitHub Stats</h2>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=djmahe4&theme=dark&hide_border=false width="50%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=djmahe4&theme=dark&hide_border=false" width="50%" alt="GitHub Streak Stats" />
 </p>
 
-
-<!-- <h2 align="center">✍️ Random Dev Quote</h2>
+<h2 align="center">✍️ Random Dev Quote</h2>
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight width="50%">
-</p> -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="50%" alt="Random Dev Quote" />
+</p>
 
 <h2 align="center">🎖 Badges</h2>
 
