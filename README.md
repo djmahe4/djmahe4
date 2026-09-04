@@ -38,23 +38,38 @@ Building secure, scalable software with **Python**, **TypeScript** and **AI**.
 </p>
 
 
-<h2 align="center">📊 GitHub Stats</h2>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=djmahe4&theme=dark&hide_border=false" width="50%" alt="GitHub Streak Stats" />
-</p>
-
-<h2 align="center">✍️ Random Dev Quote</h2>
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="50%" alt="Random Dev Quote" />
-</p>
-
-<h2 align="center">🎖 Badges</h2>
-
-<p align="center">
-  <a href="https://tryhackme.com/p/djmahe4">
-    <img src="./thm_propic.png" width="50%" alt="TryHackMe Profile">
-  </a>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3 align="center">✍️ Random Dev Quote</h3>
+      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%" alt="Random Dev Quote" />
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3 align="center">📊 GitHub Stats</h3>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=djmahe4&theme=dark&hide_border=false" width="100%" alt="GitHub Streak Stats" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3 align="center">🎖 Badges</h3>
+      <a href="https://tryhackme.com/p/djmahe4">
+        <img src="./thm_propic.png" width="90%" alt="TryHackMe Profile" />
+      </a>
+    </td>
+    <td align="left" width="50%" valign="top">
+      <h3 align="center">🧠 Cognitive Persona &amp; Forensic Profile</h3>
+      <p align="center"><b>Archetype:</b> 🛡️ <i>Autonomous Systems &amp; Security Architect</i></p>
+      <ul>
+        <li><b>Brain Analysis :</b> <code>4.0%</code> Replan Rate · <code>&lt;0.5%</code> Abandonment · Deterministic Velocity</li>
+        <li><b>Offensive DAST &amp; AppSec:</b> <code>ContextDAST</code>, <code>MACDAST</code>, automated CVE ingestion, CTF Katana</li>
+        <li><b>Agentic AI &amp; Cognitive Loops:</b> Custom <code>AgenticMiddleware</code>, <code>cavecrew</code> protocols, MCP benchmark suites</li>
+        <li><b>Quantum Reasoning:</b> Grover search &amp; Shor QFT circuit simulations, multi-episode state vector emulators</li>
+        <li><b>Low-Level Systems &amp; Compilers:</b> Tree-sitter parsers, <code>mimalloc</code> allocators, process-safe concurrency locks</li>
+        <li><b>Modus Operandi:</b> High-constraint prompts, test-driven verification, zero-fluff delivery</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <h2 align="center">✨ Visits</h2>
 
