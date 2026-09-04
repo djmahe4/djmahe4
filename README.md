@@ -1,6 +1,6 @@
 <h1 align="center">Hi , I'm Maheshwar Anup</h1>
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=1200&pause=100&color=2746e1&center=true&vCenter=true&width=850&lines=Cybersecurity+Engineer;AI+Builder;Reverse+Engineering;Open+Source+Contributor" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=1200&pause=100&color=2746e1&center=true&vCenter=true&width=850&lines=Cybersecurity+Engineer;AI+Builder;Reverse+Engineering;Open+Source+Contributor;Post+Quantum+Cryptography" />
 </p>
 
 <h3 align="center">B.Tech CSE (Cyber Security+IOT including Blockchain Technology) 4th-year student at Providence College of Engineering | Practical learning freak</h3>
