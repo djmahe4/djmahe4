@@ -36,30 +36,32 @@ Building secure, scalable software with **Python**, **TypeScript** and **AI**.
 <p align="center">
   <img src="./quantum-tech-stack.svg" alt="Quantum Tech Stack Simulation" width="100%">
 </p>
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=djmahe4&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=djmahe4&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=djmahe4&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<!--## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=djmahe4&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<h2 align="center">📊 GitHub Stats</h2>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=djmahe4&theme=dark&hide_border=false width="50%">
+</p>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=djmahe4&limit=5&theme=dark&combine_all_yearly_contributions=true) -->
 
-# 🎖 Badges
-<!--[![](https://tryhackme-badges.s3.amazonaws.com/djmahe4.png)](https://tryhackme.com/p/djmahe4) -->
-[![](thm_propic.png)](https://tryhackme.com/p/djmahe4)
+<h2 align="center">✍️ Random Dev Quote</h2>
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight width="50%">
+</p>
 
-# ✨ Visits
+<h2 align="center">🎖 Badges</h2>
 
-<p align="left">
+<p align="center">
+  <a href="https://tryhackme.com/p/djmahe4">
+    <img src="./thm_propic.png" width="50%" alt="TryHackMe Profile">
+  </a>
+</p>
+
+<h2 align="center">✨ Visits</h2>
+
+<p align="center">
 <img src="https://komarev.com/ghpvc/?username=djmahe4&color=red&style=flat-square" alt="Profile views"/>
 </p>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=djmahe4&icon=8&color=4)](https://visitcount.itsvg.in)
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
